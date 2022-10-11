@@ -53,7 +53,7 @@ plus = function() {
     index++;
     document.getElementById("prev").disabled = false;
     if(index == intro.length) {
-        location.assign("https://mintybunns.github.io/game.php");
+        location.assign("https://mintybunns.github.io/game.html");
     } else {
         drawSlides();
     }
