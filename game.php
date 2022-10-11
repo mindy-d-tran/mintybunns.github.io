@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Night Raven Daycare</title>
-        <link rel="stylesheet" href="style.css" type="text/css">
-    </head>
-
-    <body>
-        <h1 id ="logo"><a href="index.html">Night Raven Daycare</a></h1>
-        <canvas id="game-area" width="800" height="450"></canvas>
-
+<?php echo file_get_contents("html/head.html")?>
         <!--lets the player interact with baby Malleus-->
         <div class="buttons">
             <button id="feed-button" onclick="game(feedVal)">feed</button>

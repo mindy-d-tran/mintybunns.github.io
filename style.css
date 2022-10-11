@@ -1,0 +1,59 @@
+.buttons {
+    align-items: center;
+}
+
+/* line 5-29 based on https://www.w3schools.com/css/css3_buttons.asp */
+button {
+    text-align: center;
+    width: 200px;
+    padding: 15px;
+    margin: 40px 45px;
+    font-size: 30px;
+    font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+    background-color: #C3AC7F;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 9px#A27F65;
+    outline: none;
+}
+
+button:hover {
+    background-color: #9C8168;
+    box-shadow: 0 9px #825F53;
+    outline: none;
+}
+
+button:active {
+    background-color: #9C8168;
+    box-shadow: 0 5px #825F53;
+    transform: translateY(4px);
+    outline: none;
+}
+
+canvas {
+    /* background-color: #5C505C; */
+    border-radius: 15px;
+    border-color: #5C505C;
+    border-style: dotted;
+}
+
+a {
+    /* font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; */
+    color: #C3AC7F;
+    display: block;
+    text-align: center;
+    /* letter-spacing: 3px;
+    font-size: 50px; */
+    text-decoration: none;
+}
+
+body {
+    text-align: center;
+    background-color: #2B2B2D;
+}
+
+#logo {
+    font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
