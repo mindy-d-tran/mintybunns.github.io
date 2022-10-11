@@ -53,7 +53,7 @@ plus = function() {
     index++;
     document.getElementById("prev").disabled = false;
     if(index == intro.length) {
-        location.assign("https://codd.cs.gsu.edu/~mtran42/WP/PW/game.php");
+        location.assign("https://mintybunns.github.io/game.php");
     } else {
         drawSlides();
     }
